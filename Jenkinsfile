@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = "your-dockerhub-username/goal-tracker"
+        DOCKER_IMAGE = "naveen1981/goal-tracker"
     }
 
     stages {
